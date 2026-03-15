@@ -14,8 +14,6 @@ ARG LLDAP_VERSION
 
 COPY --from=builder /tmp/lldap/app /usr/share/lldap/app
 COPY --from=builder /tmp/lldap/lldap /usr/bin/
-COPY --from=builder /tmp/lldap/lldap_migration_tool /usr/bin/
-COPY --from=builder /tmp/lldap/lldap_set_password /usr/bin/
 
 ENV LLDAP_KEY_FILE=/etc/lldap/server_key
 ENV LLDAP_DATABASE_URL=sqlite:///etc/lldap/users.db?mode=rwc
