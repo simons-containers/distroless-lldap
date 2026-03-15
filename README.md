@@ -1,6 +1,6 @@
 # Distroless lldap container
 
-Bare-bones distroless ldap container image from `scratch`. The official releases for lldap are statically compiled and do not require any runtime.
+Bare-bones distroless ldap container image from `scratch`. The official releases for lldap are statically compiled and do not require any runtime. The scratch images is almost half the size of the official alpine container at 35M. 
 
 ## Running
 
