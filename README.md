@@ -1,3 +1,7 @@
+![Latest](https://ghcr-badge.egpl.dev/simons-containers/distroless-lldap/latest_tag?ignore=latest,sha256*&label=latest)  
+![Size](https://ghcr-badge.egpl.dev/simons-containers/distroless-lldap/size?tag=latest)  
+![Tags](https://ghcr-badge.egpl.dev/simons-containers/distroless-lldap/tags?ignore=latest,sha256*)  
+
 # Distroless lldap container
 
 Bare-bones distroless lldap container image from `scratch`. The official releases for lldap are statically compiled and do not require any runtime. The scratch images is almost half the size of the official alpine container at 35M. 
